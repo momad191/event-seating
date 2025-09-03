@@ -5,7 +5,7 @@
   "sections": [
     {
       "id": "A",
-      "label": "Lower Bowl A",
+      "label": "Upper Bowl A",
       "transform": { "x": 0, "y": 0, "scale": 1 },
       "rows": [
         {
@@ -810,6 +810,115 @@
               "y": 130,
               "priceTier": 1,
               "status": "held"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "B",
+      "label": "Upper Bowl B",
+      "transform": { "x": 0, "y": 150, "scale": 1 },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "B-1-01",
+              "col": 1,
+              "x": 50,
+              "y": 190,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "B-1-02",
+              "col": 2,
+              "x": 80,
+              "y": 190,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "B-1-03",
+              "col": 3,
+              "x": 110,
+              "y": 190,
+              "priceTier": 1,
+              "status": "reserved"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "label": "Lower Bowl A",
+      "transform": { "x": 0, "y": 300, "scale": 1 },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "C-1-01",
+              "col": 1,
+              "x": 50,
+              "y": 340,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "C-1-02",
+              "col": 2,
+              "x": 80,
+              "y": 340,
+              "priceTier": 2,
+              "status": "sold"
+            },
+            {
+              "id": "C-1-03",
+              "col": 3,
+              "x": 110,
+              "y": 340,
+              "priceTier": 2,
+              "status": "reserved"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "label": "Lower Bowl B",
+      "transform": { "x": 0, "y": 450, "scale": 1 },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "D-1-01",
+              "col": 1,
+              "x": 50,
+              "y": 490,
+              "priceTier": 2,
+              "status": "reserved"
+            },
+            {
+              "id": "D-1-02",
+              "col": 2,
+              "x": 80,
+              "y": 490,
+              "priceTier": 2,
+              "status": "available"
+            },
+            {
+              "id": "D-1-03",
+              "col": 3,
+              "x": 110,
+              "y": 490,
+              "priceTier": 2,
+              "status": "sold"
             }
           ]
         }
