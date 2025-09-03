@@ -1,0 +1,819 @@
+{
+  "venueId": "arena-01",
+  "name": "Metropolis Arena",
+  "map": { "width": 1024, "height": 768 },
+  "sections": [
+    {
+      "id": "A",
+      "label": "Lower Bowl A",
+      "transform": { "x": 0, "y": 0, "scale": 1 },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "A-1-01",
+              "col": 1,
+              "x": 50,
+              "y": 40,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-02",
+              "col": 2,
+              "x": 80,
+              "y": 40,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-03",
+              "col": 3,
+              "x": 110,
+              "y": 40,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-04",
+              "col": 4,
+              "x": 140,
+              "y": 40,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-05",
+              "col": 5,
+              "x": 170,
+              "y": 40,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-06",
+              "col": 6,
+              "x": 200,
+              "y": 40,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-07",
+              "col": 7,
+              "x": 230,
+              "y": 40,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-08",
+              "col": 8,
+              "x": 260,
+              "y": 40,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-09",
+              "col": 9,
+              "x": 290,
+              "y": 40,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-10",
+              "col": 10,
+              "x": 320,
+              "y": 40,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-11",
+              "col": 11,
+              "x": 350,
+              "y": 40,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-12",
+              "col": 12,
+              "x": 380,
+              "y": 40,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-13",
+              "col": 13,
+              "x": 410,
+              "y": 40,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-14",
+              "col": 14,
+              "x": 440,
+              "y": 40,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-15",
+              "col": 15,
+              "x": 470,
+              "y": 40,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-16",
+              "col": 16,
+              "x": 500,
+              "y": 40,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-17",
+              "col": 17,
+              "x": 530,
+              "y": 40,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-18",
+              "col": 18,
+              "x": 560,
+              "y": 40,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-19",
+              "col": 19,
+              "x": 590,
+              "y": 40,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-20",
+              "col": 20,
+              "x": 620,
+              "y": 40,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-21",
+              "col": 21,
+              "x": 650,
+              "y": 40,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-22",
+              "col": 22,
+              "x": 680,
+              "y": 40,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-23",
+              "col": 23,
+              "x": 710,
+              "y": 40,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-24",
+              "col": 24,
+              "x": 740,
+              "y": 40,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-25",
+              "col": 25,
+              "x": 770,
+              "y": 40,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-26",
+              "col": 26,
+              "x": 800,
+              "y": 40,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-27",
+              "col": 27,
+              "x": 830,
+              "y": 40,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-28",
+              "col": 28,
+              "x": 860,
+              "y": 40,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-29",
+              "col": 29,
+              "x": 890,
+              "y": 40,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-30",
+              "col": 30,
+              "x": 920,
+              "y": 40,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-31",
+              "col": 31,
+              "x": 950,
+              "y": 40,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-32",
+              "col": 32,
+              "x": 980,
+              "y": 40,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-33",
+              "col": 33,
+              "x": 50,
+              "y": 70,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-34",
+              "col": 34,
+              "x": 80,
+              "y": 70,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-35",
+              "col": 35,
+              "x": 110,
+              "y": 70,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-36",
+              "col": 36,
+              "x": 140,
+              "y": 70,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-37",
+              "col": 37,
+              "x": 170,
+              "y": 70,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-38",
+              "col": 38,
+              "x": 200,
+              "y": 70,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-39",
+              "col": 39,
+              "x": 230,
+              "y": 70,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-40",
+              "col": 40,
+              "x": 260,
+              "y": 70,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-41",
+              "col": 41,
+              "x": 290,
+              "y": 70,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-42",
+              "col": 42,
+              "x": 320,
+              "y": 70,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-43",
+              "col": 43,
+              "x": 350,
+              "y": 70,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-44",
+              "col": 44,
+              "x": 380,
+              "y": 70,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-45",
+              "col": 45,
+              "x": 410,
+              "y": 70,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-46",
+              "col": 46,
+              "x": 440,
+              "y": 70,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-47",
+              "col": 47,
+              "x": 470,
+              "y": 70,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-48",
+              "col": 48,
+              "x": 500,
+              "y": 70,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-49",
+              "col": 49,
+              "x": 530,
+              "y": 70,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-50",
+              "col": 50,
+              "x": 560,
+              "y": 70,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-51",
+              "col": 51,
+              "x": 590,
+              "y": 70,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-52",
+              "col": 52,
+              "x": 620,
+              "y": 70,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-53",
+              "col": 53,
+              "x": 650,
+              "y": 70,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-54",
+              "col": 54,
+              "x": 680,
+              "y": 70,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-55",
+              "col": 55,
+              "x": 710,
+              "y": 70,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-56",
+              "col": 56,
+              "x": 740,
+              "y": 70,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-57",
+              "col": 57,
+              "x": 770,
+              "y": 70,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-58",
+              "col": 58,
+              "x": 800,
+              "y": 70,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-59",
+              "col": 59,
+              "x": 830,
+              "y": 70,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-60",
+              "col": 60,
+              "x": 860,
+              "y": 70,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-61",
+              "col": 61,
+              "x": 890,
+              "y": 70,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-62",
+              "col": 62,
+              "x": 920,
+              "y": 70,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-63",
+              "col": 63,
+              "x": 950,
+              "y": 70,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-64",
+              "col": 64,
+              "x": 980,
+              "y": 70,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-65",
+              "col": 65,
+              "x": 50,
+              "y": 100,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-66",
+              "col": 66,
+              "x": 80,
+              "y": 100,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-67",
+              "col": 67,
+              "x": 110,
+              "y": 100,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-68",
+              "col": 68,
+              "x": 140,
+              "y": 100,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-69",
+              "col": 69,
+              "x": 170,
+              "y": 100,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-70",
+              "col": 70,
+              "x": 200,
+              "y": 100,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-71",
+              "col": 71,
+              "x": 230,
+              "y": 100,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-72",
+              "col": 72,
+              "x": 260,
+              "y": 100,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-73",
+              "col": 73,
+              "x": 290,
+              "y": 100,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-74",
+              "col": 74,
+              "x": 320,
+              "y": 100,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-75",
+              "col": 75,
+              "x": 350,
+              "y": 100,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-76",
+              "col": 76,
+              "x": 380,
+              "y": 100,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-77",
+              "col": 77,
+              "x": 410,
+              "y": 100,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-78",
+              "col": 78,
+              "x": 440,
+              "y": 100,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-79",
+              "col": 79,
+              "x": 470,
+              "y": 100,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-80",
+              "col": 80,
+              "x": 500,
+              "y": 100,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-81",
+              "col": 81,
+              "x": 530,
+              "y": 100,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-82",
+              "col": 82,
+              "x": 560,
+              "y": 100,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-83",
+              "col": 83,
+              "x": 590,
+              "y": 100,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-84",
+              "col": 84,
+              "x": 620,
+              "y": 100,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-85",
+              "col": 85,
+              "x": 650,
+              "y": 100,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-86",
+              "col": 86,
+              "x": 680,
+              "y": 100,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-87",
+              "col": 87,
+              "x": 710,
+              "y": 100,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-88",
+              "col": 88,
+              "x": 740,
+              "y": 100,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-89",
+              "col": 89,
+              "x": 770,
+              "y": 100,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-90",
+              "col": 90,
+              "x": 800,
+              "y": 100,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-91",
+              "col": 91,
+              "x": 830,
+              "y": 100,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-92",
+              "col": 92,
+              "x": 860,
+              "y": 100,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-93",
+              "col": 93,
+              "x": 890,
+              "y": 100,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-94",
+              "col": 94,
+              "x": 920,
+              "y": 100,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-95",
+              "col": 95,
+              "x": 950,
+              "y": 100,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-96",
+              "col": 96,
+              "x": 980,
+              "y": 100,
+              "priceTier": 1,
+              "status": "held"
+            },
+            {
+              "id": "A-1-97",
+              "col": 97,
+              "x": 50,
+              "y": 130,
+              "priceTier": 1,
+              "status": "available"
+            },
+            {
+              "id": "A-1-98",
+              "col": 98,
+              "x": 80,
+              "y": 130,
+              "priceTier": 1,
+              "status": "reserved"
+            },
+            {
+              "id": "A-1-99",
+              "col": 99,
+              "x": 110,
+              "y": 130,
+              "priceTier": 1,
+              "status": "sold"
+            },
+            {
+              "id": "A-1-100",
+              "col": 100,
+              "x": 140,
+              "y": 130,
+              "priceTier": 1,
+              "status": "held"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
