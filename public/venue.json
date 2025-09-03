@@ -1,6 +1,6 @@
 {
   "venueId": "arena-01",
-  "name": "Metropolis Arena",
+  "name": "Event seating",
   "map": { "width": 1024, "height": 768 },
   "sections": [
     {
@@ -16,7 +16,7 @@
               "col": 1,
               "x": 50,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -24,7 +24,7 @@
               "col": 2,
               "x": 80,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -32,7 +32,7 @@
               "col": 3,
               "x": 110,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -40,7 +40,7 @@
               "col": 4,
               "x": 140,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -48,7 +48,7 @@
               "col": 5,
               "x": 170,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -56,7 +56,7 @@
               "col": 6,
               "x": 200,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -64,7 +64,7 @@
               "col": 7,
               "x": 230,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -72,7 +72,7 @@
               "col": 8,
               "x": 260,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -80,7 +80,7 @@
               "col": 9,
               "x": 290,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -88,7 +88,7 @@
               "col": 10,
               "x": 320,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -96,7 +96,7 @@
               "col": 11,
               "x": 350,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -104,7 +104,7 @@
               "col": 12,
               "x": 380,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -112,7 +112,7 @@
               "col": 13,
               "x": 410,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -120,7 +120,7 @@
               "col": 14,
               "x": 440,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -128,7 +128,7 @@
               "col": 15,
               "x": 470,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -136,7 +136,7 @@
               "col": 16,
               "x": 500,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -144,7 +144,7 @@
               "col": 17,
               "x": 530,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -152,7 +152,7 @@
               "col": 18,
               "x": 560,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -160,7 +160,7 @@
               "col": 19,
               "x": 590,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -168,7 +168,7 @@
               "col": 20,
               "x": 620,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -176,7 +176,7 @@
               "col": 21,
               "x": 650,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -184,7 +184,7 @@
               "col": 22,
               "x": 680,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -192,7 +192,7 @@
               "col": 23,
               "x": 710,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -200,7 +200,7 @@
               "col": 24,
               "x": 740,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -208,7 +208,7 @@
               "col": 25,
               "x": 770,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -216,7 +216,7 @@
               "col": 26,
               "x": 800,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -224,7 +224,7 @@
               "col": 27,
               "x": 830,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -232,7 +232,7 @@
               "col": 28,
               "x": 860,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -240,7 +240,7 @@
               "col": 29,
               "x": 890,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -248,7 +248,7 @@
               "col": 30,
               "x": 920,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -256,7 +256,7 @@
               "col": 31,
               "x": 950,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -264,7 +264,7 @@
               "col": 32,
               "x": 980,
               "y": 40,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -272,7 +272,7 @@
               "col": 33,
               "x": 50,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -280,7 +280,7 @@
               "col": 34,
               "x": 80,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -288,7 +288,7 @@
               "col": 35,
               "x": 110,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -296,7 +296,7 @@
               "col": 36,
               "x": 140,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -304,7 +304,7 @@
               "col": 37,
               "x": 170,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -312,7 +312,7 @@
               "col": 38,
               "x": 200,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -320,7 +320,7 @@
               "col": 39,
               "x": 230,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -328,7 +328,7 @@
               "col": 40,
               "x": 260,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -336,7 +336,7 @@
               "col": 41,
               "x": 290,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -344,7 +344,7 @@
               "col": 42,
               "x": 320,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -352,7 +352,7 @@
               "col": 43,
               "x": 350,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -360,7 +360,7 @@
               "col": 44,
               "x": 380,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -368,7 +368,7 @@
               "col": 45,
               "x": 410,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -376,7 +376,7 @@
               "col": 46,
               "x": 440,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -384,7 +384,7 @@
               "col": 47,
               "x": 470,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -392,7 +392,7 @@
               "col": 48,
               "x": 500,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -400,7 +400,7 @@
               "col": 49,
               "x": 530,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -408,7 +408,7 @@
               "col": 50,
               "x": 560,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -416,7 +416,7 @@
               "col": 51,
               "x": 590,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -424,7 +424,7 @@
               "col": 52,
               "x": 620,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -432,7 +432,7 @@
               "col": 53,
               "x": 650,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -440,7 +440,7 @@
               "col": 54,
               "x": 680,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -448,7 +448,7 @@
               "col": 55,
               "x": 710,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -456,7 +456,7 @@
               "col": 56,
               "x": 740,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -464,7 +464,7 @@
               "col": 57,
               "x": 770,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -472,7 +472,7 @@
               "col": 58,
               "x": 800,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -480,7 +480,7 @@
               "col": 59,
               "x": 830,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -488,7 +488,7 @@
               "col": 60,
               "x": 860,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -496,7 +496,7 @@
               "col": 61,
               "x": 890,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -504,7 +504,7 @@
               "col": 62,
               "x": 920,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -512,7 +512,7 @@
               "col": 63,
               "x": 950,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -520,7 +520,7 @@
               "col": 64,
               "x": 980,
               "y": 70,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -528,7 +528,7 @@
               "col": 65,
               "x": 50,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -536,7 +536,7 @@
               "col": 66,
               "x": 80,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -544,7 +544,7 @@
               "col": 67,
               "x": 110,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -552,7 +552,7 @@
               "col": 68,
               "x": 140,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -560,7 +560,7 @@
               "col": 69,
               "x": 170,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -568,7 +568,7 @@
               "col": 70,
               "x": 200,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -576,7 +576,7 @@
               "col": 71,
               "x": 230,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -584,7 +584,7 @@
               "col": 72,
               "x": 260,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -592,7 +592,7 @@
               "col": 73,
               "x": 290,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -600,7 +600,7 @@
               "col": 74,
               "x": 320,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -608,7 +608,7 @@
               "col": 75,
               "x": 350,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -616,7 +616,7 @@
               "col": 76,
               "x": 380,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -624,7 +624,7 @@
               "col": 77,
               "x": 410,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -632,7 +632,7 @@
               "col": 78,
               "x": 440,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -640,7 +640,7 @@
               "col": 79,
               "x": 470,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -648,7 +648,7 @@
               "col": 80,
               "x": 500,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -656,7 +656,7 @@
               "col": 81,
               "x": 530,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -664,7 +664,7 @@
               "col": 82,
               "x": 560,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -672,7 +672,7 @@
               "col": 83,
               "x": 590,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -680,7 +680,7 @@
               "col": 84,
               "x": 620,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -688,7 +688,7 @@
               "col": 85,
               "x": 650,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -696,7 +696,7 @@
               "col": 86,
               "x": 680,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -704,7 +704,7 @@
               "col": 87,
               "x": 710,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -712,7 +712,7 @@
               "col": 88,
               "x": 740,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -720,7 +720,7 @@
               "col": 89,
               "x": 770,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -728,7 +728,7 @@
               "col": 90,
               "x": 800,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -736,7 +736,7 @@
               "col": 91,
               "x": 830,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -744,7 +744,7 @@
               "col": 92,
               "x": 860,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -752,7 +752,7 @@
               "col": 93,
               "x": 890,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -760,7 +760,7 @@
               "col": 94,
               "x": 920,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -768,7 +768,7 @@
               "col": 95,
               "x": 950,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -776,7 +776,7 @@
               "col": 96,
               "x": 980,
               "y": 100,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             },
             {
@@ -784,7 +784,7 @@
               "col": 97,
               "x": 50,
               "y": 130,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "available"
             },
             {
@@ -792,7 +792,7 @@
               "col": 98,
               "x": 80,
               "y": 130,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "reserved"
             },
             {
@@ -800,7 +800,7 @@
               "col": 99,
               "x": 110,
               "y": 130,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "sold"
             },
             {
@@ -808,7 +808,7 @@
               "col": 100,
               "x": 140,
               "y": 130,
-              "priceTier": 1,
+              "priceTier": 20,
               "status": "held"
             }
           ]
@@ -829,7 +829,7 @@
               "col": 1,
               "x": 50,
               "y": 190,
-              "priceTier": 1,
+              "priceTier": 15,
               "status": "available"
             },
             {
@@ -837,7 +837,7 @@
               "col": 2,
               "x": 80,
               "y": 190,
-              "priceTier": 1,
+              "priceTier": 15,
               "status": "sold"
             },
             {
@@ -845,7 +845,7 @@
               "col": 3,
               "x": 110,
               "y": 190,
-              "priceTier": 1,
+              "priceTier": 15,
               "status": "reserved"
             }
           ]
@@ -865,7 +865,7 @@
               "col": 1,
               "x": 50,
               "y": 340,
-              "priceTier": 2,
+              "priceTier": 10,
               "status": "available"
             },
             {
@@ -873,7 +873,7 @@
               "col": 2,
               "x": 80,
               "y": 340,
-              "priceTier": 2,
+              "priceTier": 10,
               "status": "sold"
             },
             {
@@ -881,7 +881,7 @@
               "col": 3,
               "x": 110,
               "y": 340,
-              "priceTier": 2,
+              "priceTier": 10,
               "status": "reserved"
             }
           ]
@@ -901,7 +901,7 @@
               "col": 1,
               "x": 50,
               "y": 490,
-              "priceTier": 2,
+              "priceTier": 5,
               "status": "reserved"
             },
             {
@@ -909,7 +909,7 @@
               "col": 2,
               "x": 80,
               "y": 490,
-              "priceTier": 2,
+              "priceTier": 5,
               "status": "available"
             },
             {
@@ -917,7 +917,7 @@
               "col": 3,
               "x": 110,
               "y": 490,
-              "priceTier": 2,
+              "priceTier": 5,
               "status": "sold"
             }
           ]
