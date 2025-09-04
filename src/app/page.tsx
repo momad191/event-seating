@@ -7,7 +7,6 @@ import UnavailableSeatModal from "./UnavailableSeatModal";
 import { useTheme } from "next-themes";
 import ThemeToggle from "../components/ThemeToggle";
 
-
 type Seat = {
   id: string;
   col: number;
@@ -58,7 +57,9 @@ export default function Page() {
   const [mounted, setMounted] = useState(false);
   const [selectedSeatLabel, setSelectedSeatLabel] = useState("");
   const [selectedSeatStatus, setSelectedSeatStatus] = useState("");
-  const [selectedSeatPrice, setSelectedSeatPrice] = useState<number | null>(null);
+  const [selectedSeatPrice, setSelectedSeatPrice] = useState<number | null>(
+    null
+  );
   const [showAvailableModal, setShowAvailableModal] = useState(false);
   const [showUnavailableModal, setShowUnavailableModal] = useState(false);
 
@@ -107,7 +108,11 @@ export default function Page() {
     return () => window.removeEventListener("resize", handleResize);
   }, [venue]);
 
-  const handleSeatClick = (seat: Seat, sectionLabel: string, rowIndex: number) => {
+  const handleSeatClick = (
+    seat: Seat,
+    sectionLabel: string,
+    rowIndex: number
+  ) => {
     const label = `${sectionLabel} Row ${rowIndex} Seat ${seat.col}`;
     setSelectedSeatLabel(label);
     setSelectedSeatStatus(seat.status);
@@ -139,7 +144,9 @@ export default function Page() {
         rows: section.rows.map((row) => ({
           ...row,
           seats: row.seats.map((seat) =>
-            seat.id === selectedSeatId ? { ...seat, status: "reserved" as const } : seat
+            seat.id === selectedSeatId
+              ? { ...seat, status: "reserved" as const }
+              : seat
           ),
         })),
       })),
@@ -162,25 +169,27 @@ export default function Page() {
     setShowAvailableModal(false);
   };
 
-
-
   const handleCancelReservation = (reservationId: string) => {
     if (!venue) return;
 
     // Remove from reservations
-    const updatedReservations = reservations.filter(r => r.id !== reservationId);
+    const updatedReservations = reservations.filter(
+      (r) => r.id !== reservationId
+    );
     setReservations(updatedReservations);
     localStorage.setItem("reservations", JSON.stringify(updatedReservations));
 
     // Update venue to make the seat available again
     const updatedVenue = {
       ...venue,
-      sections: venue.sections.map(section => ({
+      sections: venue.sections.map((section) => ({
         ...section,
-        rows: section.rows.map(row => ({
+        rows: section.rows.map((row) => ({
           ...row,
-          seats: row.seats.map(seat =>
-            seat.id === reservationId ? { ...seat, status: "available" as const } : seat
+          seats: row.seats.map((seat) =>
+            seat.id === reservationId
+              ? { ...seat, status: "available" as const }
+              : seat
           ),
         })),
       })),
@@ -189,21 +198,18 @@ export default function Page() {
     localStorage.setItem("venue", JSON.stringify(updatedVenue));
   };
 
-
   useEffect(() => {
     setMounted(true);
   }, []);
 
-
-
-  function normalizeVenue(data: any): Venue {
+  function normalizeVenue(data: Venue): Venue {
     return {
       ...data,
-      sections: data.sections.map((section: any) => ({
+      sections: data.sections.map((section: Section) => ({
         ...section,
-        rows: section.rows.map((row: any) => ({
+        rows: section.rows.map((row: Row) => ({
           ...row,
-          seats: row.seats.map((seat: any) => ({
+          seats: row.seats.map((seat: Seat) => ({
             ...seat,
             status: seat.status as Seat["status"],
           })),
@@ -218,26 +224,26 @@ export default function Page() {
   const subtotal = reservations.reduce((sum, r) => sum + r.price, 0);
 
   return (
-    <div className={`p-4 flex flex-col items-center 
+    <div
+      className={`p-4 flex flex-col items-center 
     
    
     
-            ${!mounted
-        ? "bg-white text-black shadow-blue-500/20" // Default (Avoid SSR mismatch)
-        : resolvedTheme === "dark"
-          ? "bg-[#111827] text-white shadow-blue-500/20"
-          : "bg-white text-black shadow-blue-500/20"
-      } 
+            ${
+              !mounted
+                ? "bg-white text-black shadow-blue-500/20" // Default (Avoid SSR mismatch)
+                : resolvedTheme === "dark"
+                ? "bg-[#111827] text-white shadow-blue-500/20"
+                : "bg-white text-black shadow-blue-500/20"
+            } 
       
       `}
-
     >
       <div className="flex text-center items-center justify-center gap-3 p-4">
         <ThemeToggle />
         <h1 className="mb-3  text-lg font-semibold">
           {venue.name ?? "Venue"} — Seating map
         </h1>
-
       </div>
       {/* Seating Map */}
       <div
@@ -245,12 +251,13 @@ export default function Page() {
         role="region"
         aria-label={`Seating map for ${venue.name ?? "venue"}`}
         className={`relative w-full max-w-[1100px] bg-[#071022] rounded-lg overflow-hidden  shadow-2xl shadow-black/20
-                 ${!mounted
-            ? "bg-white text-black shadow-blue-500/20" // Default (Avoid SSR mismatch)
-            : resolvedTheme === "dark"
-              ? "bg-[#111827] text-white shadow-green-500/20"
-              : "bg-white text-black shadow-green-500/20"
-          }
+                 ${
+                   !mounted
+                     ? "bg-white text-black shadow-blue-500/20" // Default (Avoid SSR mismatch)
+                     : resolvedTheme === "dark"
+                     ? "bg-[#111827] text-white shadow-green-500/20"
+                     : "bg-white text-black shadow-green-500/20"
+                 }
       `}
         style={{ aspectRatio: `${venue.map.width} / ${venue.map.height}` }}
       >
@@ -264,7 +271,8 @@ export default function Page() {
                   top: (section.rows[0].seats[0].y - 30) * scale,
                   left:
                     ((section.rows[0].seats[0].x +
-                      section.rows[0].seats[section.rows[0].seats.length - 1].x) /
+                      section.rows[0].seats[section.rows[0].seats.length - 1]
+                        .x) /
                       2) *
                     scale,
                   transform: "translateX(-50%)",
@@ -297,9 +305,12 @@ export default function Page() {
                   aria-label={`${section.label} Row ${row.index}, Seat ${seat.col}, ${seat.status}`}
                   tabIndex={0}
                   title={`${section.label} Row ${row.index}, Seat ${seat.col} — ${seat.status}`}
-                  className={`mt-6 mb-6 cursor-pointer  ${seat.id === selectedSeatId ? "pulse-glow" : ""
-                    }`}
-                  onClick={() => handleSeatClick(seat, section.label, row.index)}
+                  className={`mt-6 mb-6 cursor-pointer  ${
+                    seat.id === selectedSeatId ? "pulse-glow" : ""
+                  }`}
+                  onClick={() =>
+                    handleSeatClick(seat, section.label, row.index)
+                  }
                   onKeyDown={(e) => {
                     if (e.key === "Enter" || e.key === " ") {
                       e.preventDefault();
@@ -318,12 +329,13 @@ export default function Page() {
         className={`  p-4 rounded-lg  shadow-lg 
   w-full sm:w-72 sm:fixed sm:top-4 sm:right-4 sm:max-h-[80vh] sm:overflow-y-auto
   mt-4 sm:mt-0 z-50
-            ${!mounted
-            ? "bg-white text-black shadow-blue-500/20" // Default (Avoid SSR mismatch)
-            : resolvedTheme === "dark"
-              ? "bg-[#111827] text-white shadow-green-500/20"
-              : "bg-white text-black shadow-green-500/20"
-          }
+            ${
+              !mounted
+                ? "bg-white text-black shadow-blue-500/20" // Default (Avoid SSR mismatch)
+                : resolvedTheme === "dark"
+                ? "bg-[#111827] text-white shadow-green-500/20"
+                : "bg-white text-black shadow-green-500/20"
+            }
   
   `}
       >
@@ -367,7 +379,6 @@ export default function Page() {
           <p className="text-slate-400">No reservations yet</p>
         )}
       </div>
-
 
       {showAvailableModal && (
         <AvailableSeatModal
