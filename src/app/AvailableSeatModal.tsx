@@ -2,7 +2,7 @@
 
 import React from "react";
 
-type Props = {
+type Props = { 
   seatLabel: string;
   selectedSeatStatus: string;
   selectedSeatPrice: number | null;
@@ -15,7 +15,7 @@ export default function AvailableSeatModal({
   selectedSeatStatus,
   selectedSeatPrice,
   onClose,
-  onReserve,
+  onReserve, 
 }: Props) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center text-black bg-black/50">

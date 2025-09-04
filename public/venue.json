@@ -1,12 +1,19 @@
 {
   "venueId": "arena-01",
   "name": "Event seating",
-  "map": { "width": 1024, "height": 768 },
+  "map": {
+    "width": 1024,
+    "height": 768
+  },
   "sections": [
     {
       "id": "A",
-      "label": "Upper Bowl A",
-      "transform": { "x": 0, "y": 0, "scale": 1 },
+      "label": "Upper Bowl A ",
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+      },
       "rows": [
         {
           "index": 1,
@@ -819,7 +826,11 @@
     {
       "id": "B",
       "label": "Upper Bowl B",
-      "transform": { "x": 0, "y": 150, "scale": 1 },
+      "transform": {
+        "x": 0,
+        "y": 150,
+        "scale": 1
+      },
       "rows": [
         {
           "index": 1,
@@ -854,8 +865,12 @@
     },
     {
       "id": "C",
-      "label": "Lower Bowl A",
-      "transform": { "x": 0, "y": 300, "scale": 1 },
+      "label": "Upper Bowl C",
+      "transform": {
+        "x": 0,
+        "y": 300,
+        "scale": 1
+      },
       "rows": [
         {
           "index": 1,
@@ -890,8 +905,12 @@
     },
     {
       "id": "D",
-      "label": "Lower Bowl B",
-      "transform": { "x": 0, "y": 450, "scale": 1 },
+      "label": "Upper Bowl D",
+      "transform": {
+        "x": 0,
+        "y": 450,
+        "scale": 1
+      },
       "rows": [
         {
           "index": 1,
@@ -919,6 +938,46 @@
               "y": 490,
               "priceTier": 5,
               "status": "sold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "label": "Upper Bowl E",
+      "transform": {
+        "x": 0,
+        "y": 450,
+        "scale": 1
+      },
+      "rows": [
+        {
+          "index": 1,
+          "seats": [
+            {
+              "id": "E-1-01",
+              "col": 1,
+              "x": 50,
+              "y": 490,
+              "priceTier": 5,
+              "status": "available"
+            },
+            {
+              "id": "E-1-02",
+              "col": 2,
+              "x": 80,
+              "y": 490,
+              "priceTier": 5,
+              "status": "available"
+            },
+            {
+              "id": "E-1-03",
+              "col": 3,
+              "x": 110,
+              "y": 490,
+              "priceTier": 5,
+              "status": "available"
             }
           ]
         }

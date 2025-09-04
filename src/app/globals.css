@@ -134,3 +134,22 @@ hr {
   border-top: 1px solid #263040;
   margin: 10px 0;
 }
+
+@keyframes pulse-glow {
+  0% {
+    filter: drop-shadow(0 0 4px #fff);
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 12px #00f0ff);
+    transform: scale(1.2);
+  }
+  100% {
+    filter: drop-shadow(0 0 4px #fff);
+    transform: scale(1);
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 1s infinite ease-in-out;
+}
